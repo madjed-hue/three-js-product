@@ -6,13 +6,7 @@ import state from "../store";
 import { reader } from "../config/helpers";
 import { EditorTabs, FilterTabs, DecalTypes } from "../config/constants";
 import { fadeAnimation, slideAnimation } from "../config/motion";
-import {
-  AIPicker,
-  ColorPicker,
-  CustomButton,
-  FilePicker,
-  Tab,
-} from "../components";
+import { ColorPicker, CustomButton, FilePicker, Tab } from "../components";
 
 const Customizer = () => {
   const snap = useSnapshot(state);
